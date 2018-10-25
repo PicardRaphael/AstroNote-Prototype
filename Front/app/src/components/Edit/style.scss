@@ -1,0 +1,53 @@
+@import 'styles/vars.scss';
+
+.edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+  &-notes {
+    width: 90%;
+    margin-top: 3em;
+  }
+
+  &-note {
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+
+  &-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  &-save, &-cancel {
+    padding: .5em 1em;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-grey;
+    border-radius: 10%;
+    border: none;
+    margin: 0 .5em;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    color: $color-green;
+
+    &:hover {
+      box-shadow: none;
+      position: relative;
+      top: 2px;
+      left: 2px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .edit-note {
+    width: 50%;
+  }
+}

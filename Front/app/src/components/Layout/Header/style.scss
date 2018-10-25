@@ -1,0 +1,19 @@
+/*
+* Import
+*/
+@import 'styles/vars.scss';
+/*
+ * Elements
+ */
+.header {
+  text-align: center;
+  margin: .2em auto;
+  font-weight: bold;
+  border-radius: 8%;
+  font-size: 4em;
+
+  &-link {
+    color: $color-green;
+    text-decoration: none;
+  }
+}

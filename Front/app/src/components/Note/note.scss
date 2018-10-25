@@ -1,0 +1,57 @@
+@import 'styles/vars.scss';
+
+ .note {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  &-notes {
+    width: 90%;
+    margin-top: 3em;
+  }
+
+  &-note {
+    width: 90%;
+    padding: 1em;
+    background-color: white;
+  }
+
+  &-author {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 3em;
+
+    &:after {
+      content: ' ';
+      display: block;
+      position: relative;
+      top: 1em;
+      width: 10%;
+      height: 2px;
+      background-color: $color-background;
+      margin: auto;
+    }
+  }
+
+  &-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: darken($color-text, 45%);
+  }
+
+  &-content {
+    font-size: 1.2em;
+    min-height: 200px;
+    color: $color-dark;
+  }
+}
+
+@media (min-width: 768px) {
+  .note-note {
+    border: 1px solid grey;
+  }
+}
+

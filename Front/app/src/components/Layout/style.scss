@@ -1,0 +1,15 @@
+@import 'styles/vars.scss';
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+  min-height: 100vh;
+  background-color: $color-background;
+}

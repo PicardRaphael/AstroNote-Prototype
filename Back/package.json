@@ -1,0 +1,53 @@
+{
+  "name": "modele-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "",
+  "author": "Philippe Candille <philippe@oclock.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "auto-reload-brunch": "*",
+    "autoprefixer": "*",
+    "babel-brunch": "https://github.com/babel/babel-brunch",
+    "babel-eslint": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "babel-register": "*",
+    "babel-resolver": "*",
+    "brunch": "*",
+    "chai": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-import-resolver-node": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-jsx-a11y": "*",
+    "eslint-plugin-react": "*",
+    "jsdom": "*",
+    "mocha": "*",
+    "postcss-brunch": "0.5.0",
+    "stylus-brunch": "*"
+  },
+  "dependencies": {
+    "babel-polyfill": "*",
+    "bcrypt": "*",
+    "body-parser": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "jwt-decode": "*",
+    "mongoose": "*",
+    "morgan": "*",
+    "node-gyp": "*",
+    "nodemon": "*",
+    "serve-static": "*",
+    "socket.io": "*",
+    "socket.io-client": "*",
+    "socketio-jwt-auth": "*",
+    "validate-email": "*"
+  },
+  "scripts": {
+    "build": "brunch build",
+    "start": "nodemon index.js"
+  }
+}
